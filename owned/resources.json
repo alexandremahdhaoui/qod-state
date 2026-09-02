@@ -28,6 +28,10 @@
     "manager": "github"
   },
   {
+    "resource": "directory//__w/qod-factory/qod-factory/qod-state",
+    "manager": "local"
+  },
+  {
     "resource": "directory//home/amahdha/workspaces/qod/qod-state",
     "manager": "local"
   },
