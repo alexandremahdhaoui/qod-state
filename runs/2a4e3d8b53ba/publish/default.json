@@ -1,0 +1,33 @@
+{
+  "revision": "2a4e3d8b53ba",
+  "stage": "publish",
+  "substage": "default",
+  "engine": "here",
+  "status": "passed",
+  "startedAt": "2026-09-02T14:56:01.750825755Z",
+  "duration": 0.218630662,
+  "output": "$ forge test run publish-members (in /__w/qod-factory/qod-factory/qod-register)\nRunning tests: stage=publish-members, name=publish-members-20260902-145601\n\nTest Results:\nStatus: passed\nTotal: 1\nPassed: 1\nFailed: 0\nCoverage: 0.0%\nSourced 1 environment variables from .envrc\n2026/09/02 14:56:01 Running tests for stage publish-members using generic-test-runner\n2026/09/02 14:56:01 Running tests: stage=publish-members name=publish-members-20260902-145601 command=sh\n2026/09/02 14:56:01 Stdout: publish-members: provenance 2a4e3d8b53ba\nup-to-date internal/github.com/alexandremahdhaoui/qod-core/0/1788360961: track 0 is already at v0.1.2\nup-to-date internal/github.com/alexandremahdhaoui/qod-app/0/1788360961: track 0 is already at v0.1.2\nup-to-date internal/github.com/alexandremahdhaoui/qod-engines/0/1788360961: track 0 is already at v0.1.2\nup-to-date internal/github.com/alexandremahdhaoui/qod-configgen/0/1788360961: track 0 is already at v0.1.2\nup-to-date internal/github.com/alexandremahdhaoui/qod-spec/0/1788360961: track 0 is already at v0.1.0-dev.r00000003.g01a3d846d8ba\npublish-members: every member is on the internal track at 2a4e3d8b53ba\n",
+  "forge": {
+    "testReports": [
+      {
+        "id": "d39654b0-282c-4e68-9f72-7212bfa4c35d",
+        "stage": "publish-members",
+        "status": "passed",
+        "startTime": "2026-09-02T14:56:01.964081788Z",
+        "duration": 0,
+        "testStats": {
+          "total": 1,
+          "passed": 1,
+          "failed": 0,
+          "skipped": 0
+        },
+        "coverage": {
+          "enabled": false,
+          "percentage": 0
+        },
+        "createdAt": "2026-09-02T14:56:01.966870362Z",
+        "updatedAt": "2026-09-02T14:56:01.966870362Z"
+      }
+    ]
+  }
+}
