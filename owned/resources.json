@@ -1,0 +1,90 @@
+[
+  {
+    "resource": "actions-secret/alexandremahdhaoui/qod-app/FORGE_CI_DISPATCH_TOKEN",
+    "manager": "github"
+  },
+  {
+    "resource": "actions-secret/alexandremahdhaoui/qod-configgen/FORGE_CI_DISPATCH_TOKEN",
+    "manager": "github"
+  },
+  {
+    "resource": "actions-secret/alexandremahdhaoui/qod-core/FORGE_CI_DISPATCH_TOKEN",
+    "manager": "github"
+  },
+  {
+    "resource": "actions-secret/alexandremahdhaoui/qod-engines/FORGE_CI_DISPATCH_TOKEN",
+    "manager": "github"
+  },
+  {
+    "resource": "actions-secret/alexandremahdhaoui/qod-factory/FORGE_CI_DISPATCH_TOKEN",
+    "manager": "github"
+  },
+  {
+    "resource": "actions-secret/alexandremahdhaoui/qod-factory/FORGE_CI_GITHUB_TOKEN",
+    "manager": "github"
+  },
+  {
+    "resource": "actions-secret/alexandremahdhaoui/qod-spec/FORGE_CI_DISPATCH_TOKEN",
+    "manager": "github"
+  },
+  {
+    "resource": "directory//home/amahdha/workspaces/qod/qod-state",
+    "manager": "local"
+  },
+  {
+    "resource": "file-content/qod-app/.github/workflows/notify.yaml",
+    "manager": "github"
+  },
+  {
+    "resource": "file-content/qod-configgen/.github/workflows/notify.yaml",
+    "manager": "github"
+  },
+  {
+    "resource": "file-content/qod-core/.github/workflows/notify.yaml",
+    "manager": "github"
+  },
+  {
+    "resource": "file-content/qod-engines/.github/workflows/notify.yaml",
+    "manager": "github"
+  },
+  {
+    "resource": "file-content/qod-factory/.github/workflows/ci.yaml",
+    "manager": "github"
+  },
+  {
+    "resource": "file-content/qod-factory/.github/workflows/release.yaml",
+    "manager": "github"
+  },
+  {
+    "resource": "file-content/qod-spec/.github/workflows/notify.yaml",
+    "manager": "github"
+  },
+  {
+    "resource": "workflow-enabled/alexandremahdhaoui/qod-app/notify.yaml",
+    "manager": "github"
+  },
+  {
+    "resource": "workflow-enabled/alexandremahdhaoui/qod-configgen/notify.yaml",
+    "manager": "github"
+  },
+  {
+    "resource": "workflow-enabled/alexandremahdhaoui/qod-core/notify.yaml",
+    "manager": "github"
+  },
+  {
+    "resource": "workflow-enabled/alexandremahdhaoui/qod-engines/notify.yaml",
+    "manager": "github"
+  },
+  {
+    "resource": "workflow-enabled/alexandremahdhaoui/qod-factory/ci.yaml",
+    "manager": "github"
+  },
+  {
+    "resource": "workflow-enabled/alexandremahdhaoui/qod-factory/release.yaml",
+    "manager": "github"
+  },
+  {
+    "resource": "workflow-enabled/alexandremahdhaoui/qod-spec/notify.yaml",
+    "manager": "github"
+  }
+]
