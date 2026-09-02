@@ -1,0 +1,33 @@
+{
+  "revision": "2b237b845bd3",
+  "stage": "publish",
+  "substage": "default",
+  "engine": "here",
+  "status": "passed",
+  "startedAt": "2026-09-02T13:02:50.444324248Z",
+  "duration": 5.825765461,
+  "output": "$ forge test run publish-members (in /__w/qod-factory/qod-factory/qod-register)\nRunning tests: stage=publish-members, name=publish-members-20260902-130250\n\nTest Results:\nStatus: passed\nTotal: 1\nPassed: 1\nFailed: 0\nCoverage: 0.0%\nSourced 1 environment variables from .envrc\n2026/09/02 13:02:50 Running tests for stage publish-members using generic-test-runner\n2026/09/02 13:02:50 Running tests: stage=publish-members name=publish-members-20260902-130250 command=sh\n2026/09/02 13:02:56 Stdout: publish-members: provenance 2b237b845bd3\nadopted internal/github.com/alexandremahdhaoui/qod-core/0/1788354170: published by proof: revision 2b237b845bd3\nadopted internal/github.com/alexandremahdhaoui/qod-app/0/1788354172: published by proof: revision 2b237b845bd3\nadopted internal/github.com/alexandremahdhaoui/qod-engines/0/1788354173: published by proof: revision 2b237b845bd3\nadopted internal/github.com/alexandremahdhaoui/qod-configgen/0/1788354174: published by proof: revision 2b237b845bd3\nup-to-date internal/github.com/alexandremahdhaoui/qod-spec/0/1788354176: track 0 is already at v0.1.0-dev.r00000003.g01a3d846d8ba\npublish-members: every member is on the internal track at 2b237b845bd3\n",
+  "forge": {
+    "testReports": [
+      {
+        "id": "f6e19b09-44df-4e13-8f28-2a7885e9063a",
+        "stage": "publish-members",
+        "status": "passed",
+        "startTime": "2026-09-02T13:02:56.265651371Z",
+        "duration": 0,
+        "testStats": {
+          "total": 1,
+          "passed": 1,
+          "failed": 0,
+          "skipped": 0
+        },
+        "coverage": {
+          "enabled": false,
+          "percentage": 0
+        },
+        "createdAt": "2026-09-02T13:02:56.268000053Z",
+        "updatedAt": "2026-09-02T13:02:56.268000053Z"
+      }
+    ]
+  }
+}
