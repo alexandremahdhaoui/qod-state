@@ -1,0 +1,196 @@
+{
+  "revision": "75bf4f73513a-dirty",
+  "stage": "build",
+  "substage": "default",
+  "engine": "here",
+  "status": "passed",
+  "startedAt": "2026-09-02T13:52:57.196465665Z",
+  "duration": 113.820489092,
+  "output": "... earlier output dropped ...\n09/02 13:53:31 Running tests: stage=purity name=purity-20260902-135331 command=sh\n2026/09/02 13:53:31 Stdout: qod-core is free of I/O\n✅ Stage 'purity' passed\n\n✅ All test stages passed!\n$ forge test-all (in /__w/qod-factory/qod-factory/qod-app)\nRunning tests: stage=lint, name=lint-20260902-135409\n\nTest Results:\nStatus: passed\nTotal: 1\nPassed: 1\nFailed: 0\nCoverage: 0.0%\nRunning tests: stage=format-check, name=format-check-20260902-135429\n\nTest Results:\nStatus: passed\nTotal: 1\nPassed: 1\nFailed: 0\nCoverage: 0.0%\nRunning tests: stage=unit, name=unit-20260902-135429\n\nTest Results:\nStatus: passed\nTotal: 1\nPassed: 1\nFailed: 0\nCoverage: 0.0%\nRunning tests: stage=architecture, name=architecture-20260902-135450\n\nTest Results:\nStatus: passed\nTotal: 1\nPassed: 1\nFailed: 0\nCoverage: 0.0%\nSourced 1 environment variables from .envrc\n🔨 Building all artifacts...\n🔨 Building format-code (no previous build)\n🔨 Building qod-app (no previous build)\nBuilding 2 artifact(s) with forge://generic-builder...\n2026/09/02 13:53:32 Building 2 artifacts in batch using generic-builder\n2026/09/02 13:53:32 Building format-code using generic-builder\n2026/09/02 13:53:32 Executing command: cargo [fmt -p qod-app] (context: /__w/qod-factory/qod-factory/qod-app)\n2026/09/02 13:53:32 Building qod-app using generic-builder\n2026/09/02 13:53:32 Executing command: cargo [build -p qod-app --release] (context: /__w/qod-factory/qod-factory/qod-app)\n2026/09/02 13:54:09 Stderr:  Downloading crates ...\n  Downloaded atomic-waker v1.1.2\n  Downloaded anstyle-query v1.1.5\n  Downloaded anstream v1.0.0\n  Downloaded anstyle-parse v1.0.0\n  Downloaded anyhow v1.0.104\n  Downloaded tower-service v0.3.3\n  Downloaded yoke-derive v0.8.2\n  Downloaded zeroize v1.9.0\n  Downloaded displaydoc v0.2.7\n  Downloaded tinystr v0.8.4\n  Downloaded icu_provider v2.3.1\n  Downloaded quinn v0.11.11\n  Downloaded zerofrom-derive v0.1.7\n  Downloaded yoke v0.8.3\n  Downloaded cc v1.4.4\n  Downloaded zerovec-derive v0.11.6\n  Downloaded percent-encoding v2.3.2\n  Downloaded rustls-pki-types v1.15.1\n  Downloaded zerovec v0.11.8\n  Downloaded zerotrie v0.2.5\n  Downloaded cfg_aliases v0.2.2\n  Downloaded colorchoice v1.0.5\n  Downloaded pkg-config v0.3.34\n  Downloaded rand_core v0.10.1\n  Downloaded tinyvec_macros v0.1.1\n  Downloaded rustc-hash v2.1.3\n  Downloaded strsim v0.11.1\n  Downloaded http-body v1.1.0\n  Downloaded futures-task v0.3.34\n  Downloaded potential_utf v0.1.6\n  Downloaded stable_deref_trait v1.2.1\n  Downloaded is_terminal_polyfill v1.70.2\n  Downloaded openssl-probe v0.2.1\n  Downloaded synstructure v0.13.2\n  Downloaded shlex v2.0.1\n  Downloaded smallvec v1.16.0\n  Downloaded jobserver v0.1.35\n  Downloaded rustls-native-certs v0.8.4\n  Downloaded find-msvc-tools v0.1.11\n  Downloaded futures-channel v0.3.34\n  Downloaded utf8parse v0.2.2\n  Downloaded untrusted v0.9.0\n  Downloaded idna_adapter v1.2.2\n  Downloaded lru-slab v0.1.2\n  Downloaded sync_wrapper v1.0.2\n  Downloaded try-lock v0.2.5\n  Downloaded want v0.3.1\n  Downloaded zerofrom v0.1.8\n  Downloaded form_urlencoded v1.2.2\n  Downloaded cpufeatures v0.3.1\n  Downloaded subtle v2.6.1\n  Downloaded tower-layer v0.3.3\n  Downloaded clap_lex v1.1.0\n  Downloaded http-body-util v0.1.5\n  Downloaded hyper-rustls v0.27.9\n  Downloaded pin-project-lite v0.2.17\n  Downloaded slab v0.4.12\n  Downloaded utf8_iter v1.0.4\n  Downloaded writeable v0.6.4\n  Downloaded dunce v1.0.5\n  Downloaded ipnet v2.12.1\n  Downloaded cmake v0.1.58\n  Downloaded rand_pcg v0.10.2\n  Downloaded fs_extra v1.3.0\n  Downloaded once_cell v1.21.4\n  Downloaded quinn-udp v0.5.15\n  Downloaded getrandom v0.4.3\n  Downloaded tokio-rustls v0.26.4\n  Downloaded chacha20 v0.10.2\n  Downloaded clap v4.6.6\n  Downloaded litemap v0.8.3\n  Downloaded rustls-platform-verifier v0.7.0\n  Downloaded socket2 v0.6.5\n  Downloaded getrandom v0.2.17\n  Downloaded tinyvec v1.12.0\n  Downloaded base64 v0.22.1\n  Downloaded httparse v1.10.1\n  Downloaded tracing-core v0.1.36\n  Downloaded log v0.4.34\n  Downloaded icu_normalizer_data v2.3.0\n  Downloaded rustls-webpki v0.103.15\n  Downloaded url v2.5.8\n  Downloaded icu_collections v2.3.0\n  Downloaded icu_locale_core v2.3.0\n  Downloaded mio v1.2.3\n  Downloaded bytes v1.12.1\n  Downloaded hyper-util v0.1.20\n  Downloaded http v1.5.0\n  Downloaded rand v0.10.2\n  Downloaded tower v0.5.3\n  Downloaded icu_properties v2.3.0\n  Downloaded tower-http v0.6.11\n  Downloaded idna v1.1.0\n  Downloaded reqwest v0.13.4\n  Downloaded futures-util v0.3.34\n  Downloaded hyper v1.11.1\n  Downloaded icu_properties_data v2.3.0\n  Downloaded clap_builder v4.6.6\n  Downloaded aws-lc-rs v1.18.1\n  Downloaded quinn-proto v0.11.17\n  Downloaded rustls v0.23.43\n  Downloaded tracing v0.1.44\n  Downloaded tokio v1.53.1\n  Downloaded icu_normalizer v2.3.0\n  Downloaded libc v0.2.189\n  Downloaded ring v0.17.14\n  Downloaded aws-lc-sys v0.45.0\n   Compiling libc v0.2.189\n   Compiling stable_deref_trait v1.2.1\n   Compiling find-msvc-tools v0.1.11\n   Compiling syn v3.0.4\n   Compiling syn v2.0.119\n   Compiling shlex v2.0.1\n   Compiling pkg-config v0.3.34\n   Compiling dunce v1.0.5\n   Compiling fs_extra v1.3.0\n   Compiling bytes v1.12.1\n   Compiling jobserver v0.1.35\n   Compiling cc v1.4.4\n   Compiling pin-project-lite v0.2.17\n   Compiling synstructure v0.13.2\n   Compiling cmake v0.1.58\n   Compiling zerovec-derive v0.11.6\n   Compiling displaydoc v0.2.7\n   Compiling zerofrom-derive v0.1.7\n   Compiling yoke-derive v0.8.2\n   Compiling aws-lc-sys v0.45.0\n   Compiling zerofrom v0.1.8\n   Compiling futures-core v0.3.34\n   Compiling yoke v0.8.3\n   Compiling litemap v0.8.3\n   Compiling zerovec v0.11.8\n   Compiling zeroize v1.9.0\n   Compiling writeable v0.6.4\n   Compiling smallvec v1.16.0\n   Compiling tinystr v0.8.4\n   Compiling aws-lc-rs v1.18.1\n   Compiling mio v1.2.3\n   Compiling icu_locale_core v2.3.0\n   Compiling socket2 v0.6.5\n   Compiling potential_utf v0.1.6\n   Compiling zerotrie v0.2.5\n   Compiling utf8_iter v1.0.4\n   Compiling icu_normalizer_data v2.3.0\n   Compiling icu_properties_data v2.3.0\n   Compiling once_cell v1.21.4\n   Compiling icu_collections v2.3.0\n   Compiling icu_provider v2.3.1\n   Compiling tokio v1.53.1\n   Compiling rustls-pki-types v1.15.1\n   Compiling http v1.5.0\n   Compiling rustls v0.23.43\n   Compiling http-body v1.1.0\n   Compiling slab v0.4.12\n   Compiling httparse v1.10.1\n   Compiling futures-task v0.3.34\n   Compiling untrusted v0.9.0\n   Compiling percent-encoding v2.3.2\n   Compiling futures-util v0.3.34\n   Compiling icu_properties v2.3.0\n   Compiling icu_normalizer v2.3.0\n   Compiling log v0.4.34\n   Compiling try-lock v0.2.5\n   Compiling subtle v2.6.1\n   Compiling tower-service v0.3.3\n   Compiling want v0.3.1\n   Compiling idna_adapter v1.2.2\n   Compiling tracing-core v0.1.36\n   Compiling futures-channel v0.3.34\n   Compiling utf8parse v0.2.2\n   Compiling atomic-waker v1.1.2\n   Compiling hyper v1.11.1\n   Compiling tracing v0.1.44\n   Compiling anstyle-parse v1.0.0\n   Compiling idna v1.1.0\n   Compiling form_urlencoded v1.2.2\n   Compiling sync_wrapper v1.0.2\n   Compiling serde_derive v1.0.229\n   Compiling anstyle v1.0.14\n   Compiling colorchoice v1.0.5\n   Compiling openssl-probe v0.2.1\n   Compiling anstyle-query v1.1.5\n   Compiling base64 v0.22.1\n   Compiling is_terminal_polyfill v1.70.2\n   Compiling ipnet v2.12.1\n   Compiling tower-layer v0.3.3\n   Compiling tower v0.5.3\n   Compiling hyper-util v0.1.20\n   Compiling anstream v1.0.0\n   Compiling rustls-native-certs v0.8.4\n   Compiling serde v1.0.229\n   Compiling url v2.5.8\n   Compiling thiserror-impl v2.0.20\n   Compiling strsim v0.11.1\n   Compiling anyhow v1.0.104\n   Compiling clap_lex v1.1.0\n   Compiling clap_builder v4.6.6\n   Compiling thiserror v2.0.20\n   Compiling tower-http v0.6.11\n   Compiling http-body-util v0.1.5\n   Compiling qod-core v0.1.0 (/__w/qod-factory/qod-factory/qod-core)\n   Compiling clap v4.6.6\n   Compiling rustls-webpki v0.103.15\n   Compiling tokio-rustls v0.26.4\n   Compiling rustls-platform-verifier v0.7.0\n   Compiling hyper-rustls v0.27.9\n   Compiling reqwest v0.13.4\n   Compiling qod-app v0.1.0 (/__w/qod-factory/qod-factory/qod-app)\n    Finished `release` profile [optimized] target(s) in 37.06s\n✅ Successfully built 2 artifact(s)\n✅ Build completed successfully\n\n🧪 Running 4 test stage(s)...\n\n--- Running test stage: lint ---\n2026/09/02 13:54:09 Running tests for stage lint using generic-test-runner\n2026/09/02 13:54:09 Running tests: stage=lint name=lint-20260902-135409 command=cargo\n2026/09/02 13:54:29 Stderr:    Compiling libc v0.2.189\n    Checking stable_deref_trait v1.2.1\n   Compiling shlex v2.0.1\n   Compiling syn v2.0.119\n   Compiling syn v3.0.4\n   Compiling find-msvc-tools v0.1.11\n   Compiling dunce v1.0.5\n   Compiling fs_extra v1.3.0\n   Compiling pkg-config v0.3.34\n    Checking bytes v1.12.1\n   Compiling jobserver v0.1.35\n   Compiling cc v1.4.4\n    Checking pin-project-lite v0.2.17\n   Compiling cmake v0.1.58\n    Checking litemap v0.8.3\n    Checking zeroize v1.9.0\n   Compiling zerovec-derive v0.11.6\n   Compiling displaydoc v0.2.7\n   Compiling aws-lc-sys v0.45.0\n   Compiling synstructure v0.13.2\n    Checking smallvec v1.16.0\n    Checking writeable v0.6.4\n   Compiling aws-lc-rs v1.18.1\n    Checking socket2 v0.6.5\n    Checking mio v1.2.3\n   Compiling icu_properties_data v2.3.0\n    Checking utf8_iter v1.0.4\n   Compiling icu_normalizer_data v2.3.0\n    Checking once_cell v1.21.4\n    Checking tokio v1.53.1\n    Checking rustls-pki-types v1.15.1\n   Compiling zerofrom-derive v0.1.7\n   Compiling yoke-derive v0.8.2\n    Checking http v1.5.0\n    Checking zerofrom v0.1.8\n    Checking yoke v0.8.3\n    Checking zerovec v0.11.8\n    Checking zerotrie v0.2.5\n    Checking http-body v1.1.0\n    Checking tinystr v0.8.4\n    Checking potential_utf v0.1.6\n    Checking icu_locale_core v2.3.0\n    Checking icu_collections v2.3.0\n    Checking slab v0.4.12\n    Checking percent-encoding v2.3.2\n    Checking icu_provider v2.3.1\n    Checking futures-task v0.3.34\n   Compiling rustls v0.23.43\n   Compiling httparse v1.10.1\n    Checking untrusted v0.9.0\n    Checking icu_properties v2.3.0\n    Checking icu_normalizer v2.3.0\n    Checking futures-util v0.3.34\n    Checking try-lock v0.2.5\n    Checking log v0.4.34\n    Checking subtle v2.6.1\n    Checking tower-service v0.3.3\n    Checking want v0.3.1\n    Checking tracing-core v0.1.36\n    Checking idna_adapter v1.2.2\n    Checking futures-channel v0.3.34\n    Checking atomic-waker v1.1.2\n    Checking utf8parse v0.2.2\n    Checking anstyle-parse v1.0.0\n    Checking tracing v0.1.44\n    Checking hyper v1.11.1\n    Checking idna v1.1.0\n    Checking form_urlencoded v1.2.2\n   Compiling serde_derive v1.0.229\n    Checking sync_wrapper v1.0.2\n    Checking ipnet v2.12.1\n    Checking is_terminal_polyfill v1.70.2\n    Checking openssl-probe v0.2.1\n    Checking base64 v0.22.1\n    Checking anstyle-query v1.1.5\n    Checking tower-layer v0.3.3\n    Checking colorchoice v1.0.5\n    Checking tower v0.5.3\n    Checking anstream v1.0.0\n    Checking hyper-util v0.1.20\n    Checking rustls-native-certs v0.8.4\n    Checking url v2.5.8\n   Compiling thiserror-impl v2.0.20\n    Checking strsim v0.11.1\n   Compiling anyhow v1.0.104\n    Checking clap_lex v1.1.0\n    Checking clap_builder v4.6.6\n    Checking thiserror v2.0.20\n    Checking tower-http v0.6.11\n    Checking serde v1.0.229\n    Checking http-body-util v0.1.5\n   Compiling mockall_derive v0.15.0\n    Checking clap v4.6.6\n    Checking qod-core v0.1.0 (/__w/qod-factory/qod-factory/qod-core)\n    Checking mockall v0.15.0\n    Checking rustls-webpki v0.103.15\n    Checking tokio-rustls v0.26.4\n    Checking rustls-platform-verifier v0.7.0\n    Checking hyper-rustls v0.27.9\n    Checking reqwest v0.13.4\n    Checking qod-app v0.1.0 (/__w/qod-factory/qod-factory/qod-app)\n    Finished `dev` profile [unoptimized + debuginfo] target(s) in 19.97s\n✅ Stage 'lint' passed\n\n--- Running test stage: format-check ---\n2026/09/02 13:54:29 Running tests for stage format-check using generic-test-runner\n2026/09/02 13:54:29 Running tests: stage=format-check name=format-check-20260902-135429 command=cargo\n✅ Stage 'format-check' passed\n\n--- Running test stage: unit ---\n2026/09/02 13:54:29 Running tests for stage unit using generic-test-runner\n2026/09/02 13:54:29 Running tests: stage=unit name=unit-20260902-135429 command=cargo\n2026/09/02 13:54:50 Stdout: \nrunning 0 tests\n\ntest result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s\n\n\nrunning 0 tests\n\ntest result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s\n\n2026/09/02 13:54:50 Stderr:    Compiling stable_deref_trait v1.2.1\n   Compiling libc v0.2.189\n   Compiling zerofrom v0.1.8\n   Compiling bytes v1.12.1\n   Compiling pin-project-lite v0.2.17\n   Compiling yoke v0.8.3\n   Compiling litemap v0.8.3\n   Compiling zerovec v0.11.8\n   Compiling smallvec v1.16.0\n   Compiling writeable v0.6.4\n   Compiling zeroize v1.9.0\n   Compiling zerotrie v0.2.5\n   Compiling tinystr v0.8.4\n   Compiling potential_utf v0.1.6\n   Compiling icu_locale_core v2.3.0\n   Compiling jobserver v0.1.35\n   Compiling mio v1.2.3\n   Compiling socket2 v0.6.5\n   Compiling cc v1.4.4\n   Compiling once_cell v1.21.4\n   Compiling utf8_iter v1.0.4\n   Compiling icu_collections v2.3.0\n   Compiling tokio v1.53.1\n   Compiling cmake v0.1.58\n   Compiling icu_provider v2.3.1\n   Compiling rustls-pki-types v1.15.1\n   Compiling http v1.5.0\n   Compiling aws-lc-sys v0.45.0\n   Compiling icu_properties_data v2.3.0\n   Compiling icu_normalizer_data v2.3.0\n   Compiling untrusted v0.9.0\n   Compiling percent-encoding v2.3.2\n   Compiling http-body v1.1.0\n   Compiling slab v0.4.12\n   Compiling futures-task v0.3.34\n   Compiling icu_normalizer v2.3.0\n   Compiling futures-util v0.3.34\n   Compiling icu_properties v2.3.0\n   Compiling try-lock v0.2.5\n   Compiling subtle v2.6.1\n   Compiling tower-service v0.3.3\n   Compiling log v0.4.34\n   Compiling want v0.3.1\n   Compiling idna_adapter v1.2.2\n   Compiling httparse v1.10.1\n   Compiling tracing-core v0.1.36\n   Compiling futures-channel v0.3.34\n   Compiling utf8parse v0.2.2\n   Compiling atomic-waker v1.1.2\n   Compiling hyper v1.11.1\n   Compiling anstyle-parse v1.0.0\n   Compiling tracing v0.1.44\n   Compiling idna v1.1.0\n   Compiling form_urlencoded v1.2.2\n   Compiling sync_wrapper v1.0.2\n   Compiling colorchoice v1.0.5\n   Compiling is_terminal_polyfill v1.70.2\n   Compiling base64 v0.22.1\n   Compiling ipnet v2.12.1\n   Compiling anstyle-query v1.1.5\n   Compiling openssl-probe v0.2.1\n   Compiling tower-layer v0.3.3\n   Compiling rustls-native-certs v0.8.4\n   Compiling tower v0.5.3\n   Compiling anstream v1.0.0\n   Compiling hyper-util v0.1.20\n   Compiling serde v1.0.229\n   Compiling url v2.5.8\n   Compiling strsim v0.11.1\n   Compiling clap_lex v1.1.0\n   Compiling thiserror v2.0.20\n   Compiling tower-http v0.6.11\n   Compiling clap_builder v4.6.6\n   Compiling http-body-util v0.1.5\n   Compiling mockall_derive v0.15.0\n   Compiling qod-core v0.1.0 (/__w/qod-factory/qod-factory/qod-core)\n   Compiling anyhow v1.0.104\n   Compiling clap v4.6.6\n   Compiling mockall v0.15.0\n   Compiling aws-lc-rs v1.18.1\n   Compiling rustls v0.23.43\n   Compiling rustls-webpki v0.103.15\n   Compiling tokio-rustls v0.26.4\n   Compiling rustls-platform-verifier v0.7.0\n   Compiling hyper-rustls v0.27.9\n   Compiling reqwest v0.13.4\n   Compiling qod-app v0.1.0 (/__w/qod-factory/qod-factory/qod-app)\n    Finished `test` profile [unoptimized + debuginfo] target(s) in 21.18s\n     Running unittests src/lib.rs (/__w/qod-factory/qod-factory/target/debug/deps/qod_app-4fd2faf7474806d5)\n   Doc-tests qod_app\n✅ Stage 'unit' passed\n\n--- Running test stage: architecture ---\n2026/09/02 13:54:50 Running tests for stage architecture using generic-test-runner\n2026/09/02 13:54:50 Running tests: stage=architecture name=architecture-20260902-135450 command=sh\n2026/09/02 13:54:51 Stdout: architecture: 0 public function(s) with no caller anywhere\n✅ Stage 'architecture' passed\n\n✅ All test stages passed!\n$ forge test-all (in /__w/qod-factory/qod-factory/qod-engines)\nSourced 1 environment variables from .envrc\n🔨 Building all artifacts...\nNo artifacts to build\n✅ Build completed successfully\n\n⚠️  No test stages defined in forge.yaml\n$ forge test-all (in /__w/qod-factory/qod-factory/qod-configgen)\nSourced 1 environment variables from .envrc\n🔨 Building all artifacts...\nNo artifacts to build\n✅ Build completed successfully\n\n⚠️  No test stages defined in forge.yaml\n",
+  "forge": {
+    "testReports": [
+      {
+        "id": "04a90ba2-9051-4cac-9313-d44e04202def",
+        "stage": "lint",
+        "status": "passed",
+        "startTime": "2026-09-02T13:53:29.720487756Z",
+        "duration": 0,
+        "testStats": {
+          "total": 1,
+          "passed": 1,
+          "failed": 0,
+          "skipped": 0
+        },
+        "coverage": {
+          "enabled": false,
+          "percentage": 0
+        },
+        "createdAt": "2026-09-02T13:53:29.723165451Z",
+        "updatedAt": "2026-09-02T13:53:29.723165451Z"
+      },
+      {
+        "id": "0d72981d-6376-4c15-a25c-53943b941de7",
+        "stage": "unit",
+        "status": "passed",
+        "startTime": "2026-09-02T13:53:31.856715175Z",
+        "duration": 0,
+        "testStats": {
+          "total": 1,
+          "passed": 1,
+          "failed": 0,
+          "skipped": 0
+        },
+        "coverage": {
+          "enabled": false,
+          "percentage": 0
+        },
+        "createdAt": "2026-09-02T13:53:31.859154091Z",
+        "updatedAt": "2026-09-02T13:53:31.859154091Z"
+      },
+      {
+        "id": "1932552c-85e2-410c-a30f-592d416ce88a",
+        "stage": "purity",
+        "status": "passed",
+        "startTime": "2026-09-02T13:53:31.98009576Z",
+        "duration": 0,
+        "testStats": {
+          "total": 1,
+          "passed": 1,
+          "failed": 0,
+          "skipped": 0
+        },
+        "coverage": {
+          "enabled": false,
+          "percentage": 0
+        },
+        "createdAt": "2026-09-02T13:53:31.982357564Z",
+        "updatedAt": "2026-09-02T13:53:31.982357564Z"
+      },
+      {
+        "id": "4f2f53c1-feb0-4f0c-a615-9021b7355ce4",
+        "stage": "format-check",
+        "status": "passed",
+        "startTime": "2026-09-02T13:53:29.873308818Z",
+        "duration": 0,
+        "testStats": {
+          "total": 1,
+          "passed": 1,
+          "failed": 0,
+          "skipped": 0
+        },
+        "coverage": {
+          "enabled": false,
+          "percentage": 0
+        },
+        "createdAt": "2026-09-02T13:53:29.875577874Z",
+        "updatedAt": "2026-09-02T13:53:29.875577874Z"
+      },
+      {
+        "id": "708618ae-3b86-400a-bb69-80f8755b5900",
+        "stage": "unit",
+        "status": "passed",
+        "startTime": "2026-09-02T13:54:50.869780289Z",
+        "duration": 0,
+        "testStats": {
+          "total": 1,
+          "passed": 1,
+          "failed": 0,
+          "skipped": 0
+        },
+        "coverage": {
+          "enabled": false,
+          "percentage": 0
+        },
+        "createdAt": "2026-09-02T13:54:50.872183291Z",
+        "updatedAt": "2026-09-02T13:54:50.872183291Z"
+      },
+      {
+        "id": "81151785-6dda-4f50-9df6-5071b1697329",
+        "stage": "lint",
+        "status": "passed",
+        "startTime": "2026-09-02T13:54:29.380675107Z",
+        "duration": 0,
+        "testStats": {
+          "total": 1,
+          "passed": 1,
+          "failed": 0,
+          "skipped": 0
+        },
+        "coverage": {
+          "enabled": false,
+          "percentage": 0
+        },
+        "createdAt": "2026-09-02T13:54:29.383370258Z",
+        "updatedAt": "2026-09-02T13:54:29.383370258Z"
+      },
+      {
+        "id": "b33a3d34-7e07-406c-9028-6657a8fa6fd6",
+        "stage": "architecture",
+        "status": "passed",
+        "startTime": "2026-09-02T13:54:51.002860808Z",
+        "duration": 0,
+        "testStats": {
+          "total": 1,
+          "passed": 1,
+          "failed": 0,
+          "skipped": 0
+        },
+        "coverage": {
+          "enabled": false,
+          "percentage": 0
+        },
+        "createdAt": "2026-09-02T13:54:51.004996989Z",
+        "updatedAt": "2026-09-02T13:54:51.004996989Z"
+      },
+      {
+        "id": "dc3cb209-159b-4f93-b9cc-dbe9b160b791",
+        "stage": "format-check",
+        "status": "passed",
+        "startTime": "2026-09-02T13:54:29.530577634Z",
+        "duration": 0,
+        "testStats": {
+          "total": 1,
+          "passed": 1,
+          "failed": 0,
+          "skipped": 0
+        },
+        "coverage": {
+          "enabled": false,
+          "percentage": 0
+        },
+        "createdAt": "2026-09-02T13:54:29.532851883Z",
+        "updatedAt": "2026-09-02T13:54:29.532851883Z"
+      }
+    ],
+    "artifacts": [
+      {
+        "name": "format-code",
+        "type": "command-output",
+        "location": "/__w/qod-factory/qod-factory/qod-core",
+        "timestamp": "2026-09-02T13:53:22Z",
+        "version": "cargo-exit0"
+      },
+      {
+        "name": "qod-core",
+        "type": "command-output",
+        "location": "/__w/qod-factory/qod-factory/qod-core",
+        "timestamp": "2026-09-02T13:53:25Z",
+        "version": "cargo-exit0"
+      },
+      {
+        "name": "qod-app",
+        "type": "command-output",
+        "location": "/__w/qod-factory/qod-factory/qod-app",
+        "timestamp": "2026-09-02T13:54:09Z",
+        "version": "cargo-exit0"
+      },
+      {
+        "name": "format-code",
+        "type": "command-output",
+        "location": "/__w/qod-factory/qod-factory/qod-app",
+        "timestamp": "2026-09-02T13:53:32Z",
+        "version": "cargo-exit0"
+      }
+    ]
+  }
+}
